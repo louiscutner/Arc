@@ -600,13 +600,6 @@ handleColourChange = (int) => {
   selected_line = null;
 };
 
-// handleChangeFontSize = () => {
-//   const newVal = document.getElementById("row4b").value
-//   selectedFontSize = newVal - 1;
-//   revertContent();
-//   reformatContent();
-// }
-
 handleChangeWords = () => {
   const newVal = document.getElementById("row8b").value;
   words_length = newVal;
